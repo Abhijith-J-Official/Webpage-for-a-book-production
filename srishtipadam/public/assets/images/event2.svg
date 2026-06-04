@@ -1,0 +1,14 @@
+<svg width="640" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="evGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f12711"/><stop offset="100%" stop-color="#f5af19"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#evGrad4)"/>
+  <rect x="20" y="20" width="600" height="360" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" rx="10"/>
+  <circle cx="320" cy="200" r="130" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <text x="320" y="180" font-family="'Outfit', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">WORKSHOP</text>
+  <text x="320" y="225" font-family="'Outfit', sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">Writers Workshop Kochi</text>
+  <text x="320" y="255" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="3">SRISHTIPADAM EVENTS</text>
+</svg>

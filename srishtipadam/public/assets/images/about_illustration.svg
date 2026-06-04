@@ -1,0 +1,34 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4edda"/>
+      <stop offset="50%" stop-color="#a3cfbb"/>
+      <stop offset="100%" stop-color="#155724"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#aboutGrad)" rx="24"/>
+  <circle cx="250" cy="250" r="160" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <circle cx="250" cy="250" r="120" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  
+  <!-- Quill & Inkpot Concept -->
+  <g filter="url(#shadow)" transform="translate(180, 160)">
+    <!-- Inkpot -->
+    <path d="M40,110 L100,110 L110,150 L30,150 Z" fill="#155724" stroke="#ffffff" stroke-width="3"/>
+    <rect x="55" y="90" width="30" height="20" rx="4" fill="#155724" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="70" cy="90" rx="10" ry="4" fill="#ffffff"/>
+    
+    <!-- Quill -->
+    <path d="M120,-10 C90,40 70,80 60,110 C62,110 70,105 80,95 C75,80 85,50 110,15 Z" fill="#ffffff"/>
+    <path d="M120,-10 C95,35 75,75 60,110" stroke="#155724" stroke-width="2" fill="none"/>
+    <path d="M90,25 L80,28" stroke="#155724" stroke-width="1.5"/>
+    <path d="M82,45 L72,48" stroke="#155724" stroke-width="1.5"/>
+    <path d="M75,65 L66,68" stroke="#155724" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Kerala/Literary decorations -->
+  <text x="250" y="420" font-family="'Outfit', sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="4">SRISHTIPADAM</text>
+  <text x="250" y="445" font-family="'Outfit', sans-serif" font-size="12" font-weight="600" fill="#d4edda" text-anchor="middle" letter-spacing="2">ESTD 2026</text>
+</svg>
